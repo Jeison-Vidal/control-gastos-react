@@ -22,7 +22,7 @@ function App() {
  )
  const [gastoEditar,setGastoEditar]=useState({})
  const[filtro,setFiltro]=useState('')
- const[gastosfiltrados,setGastosFiltrado]=useState('')
+ const[gastosfiltrados,setGastosFiltrado]=useState([])
 
 
 
