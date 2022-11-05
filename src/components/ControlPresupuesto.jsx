@@ -33,7 +33,7 @@ const ControlPresupuesto = ({presupuesto,gastos,setGastos,setPresupuesto,setIsVa
     let timerInterval
     Swal.fire({
       title: 'Se borrara su presupuesto',
-      html: 'Solo tomara unos segundos <b></b> milliseconds.',
+      html: 'Solo Tomara unos segundos <b></b> milliseconds.',
       timer: 3000,
       timerProgressBar: true,
       didOpen: () => {
